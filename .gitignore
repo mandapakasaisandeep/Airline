@@ -1,0 +1,19 @@
+# virtual env
+venv/
+.venv/
+env/
+
+# python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# os
+.DS_Store
+
+# training checkpoints (regenerable; keep final artifacts in models/)
+models/hf_ckpt/
+
+# streamlit
+.streamlit/secrets.toml
