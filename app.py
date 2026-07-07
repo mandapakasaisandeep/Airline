@@ -59,11 +59,11 @@ def cached_shap(row_key):
 model, meta, explainer = load_delay()
 mon = load_monitoring()
 
-st.title("✈️  Airline Delay Intelligence")
+st.title(" Airline Delay Intelligence")
 st.caption("Delay-risk scoring · SHAP explanations · live model observability")
 
 tab1, tab2, tab3, tab4, tab5 = st.tabs(
-    ["🛫 Predict & Explain", "📈 Performance", "⚡ Inference", "🌊 Drift", "📊 About"])
+    ["Predict & Explain", "Performance", " Inference", " Drift", " About"])
 
 # ============================= TAB 1: PREDICT ==============================
 with tab1:
